@@ -1,0 +1,19 @@
+{
+    "namespace": "vinted-deals",
+    "type": "record",
+    "name": "Item",
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": ["string","null"]
+        },
+        {
+            "name": "price",
+            "type": "float"
+        }
+    ]
+}
